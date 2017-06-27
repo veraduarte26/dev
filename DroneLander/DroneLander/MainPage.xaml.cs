@@ -38,6 +38,7 @@ namespace DroneLander
 
         protected override void OnDisappearing()
         {
+
             base.OnDisappearing();
             MessagingCenter.Unsubscribe<MainPage, LandingResultType>(this, "ActivityUpdate");
         }
